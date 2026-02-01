@@ -1,8 +1,30 @@
-body {
-  padding: 0px;
-  margin: 0px;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* SECTION TAG */
+.section-tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #777;
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+/* ===================== */
+/* MAIN1 (HERO SECTION)  */
+/* ===================== */
 .main1 {
   display: flex;
   height: 950px;
@@ -39,13 +61,13 @@ body {
   margin-bottom: 15px;
 }
 .main1_right {
+  flex: 1;
+  display: flex;
+  padding: 30px;
+  background-image: url(photo/cofe.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  background-image: url(photo/cofe.png);
-  padding: 30px;
-  flex: 1;
 }
 .main1_right_text {
   font-size: 45px;
@@ -75,4 +97,67 @@ body {
   height: 42px;
   white-space: nowrap;
   font-size: 16px;
+}
+
+/* ===================== */
+/* ABOUT                 */
+/* ===================== */
+.about {
+  padding: 10px 0;
+  margin-top: 120px;
+}
+.about-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+.about-header h1 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+.about-text p {
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* ===================== */
+/* MENU                  */
+/* ===================== */
+.menu {
+  padding: 10px 0;
+}
+.menu-header {
+  max-width: 1100px;
+  margin: 0 auto 24px;
+}
+.menu-header h2 {
+  font-size: 36px;
+}
+.menu-description {
+  max-width: 600px;
+  margin: 0 auto 60px;
+  color: #555;
+  font-size: 18px;
+}
+.menu-gallery {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.menu-item img {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.menu-item h3 {
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
