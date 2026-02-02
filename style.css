@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* SECTION TAG */
 .section-tag {
   font-size: 12px;
   letter-spacing: 2px;
@@ -22,9 +21,6 @@ body {
   font-weight: 800;
 }
 
-/* ===================== */
-/* MAIN1 (HERO SECTION)  */
-/* ===================== */
 .main1 {
   display: flex;
   height: 950px;
@@ -99,9 +95,6 @@ body {
   font-size: 16px;
 }
 
-/* ===================== */
-/* ABOUT                 */
-/* ===================== */
 .about {
   padding: 10px 0;
   margin-top: 120px;
@@ -123,9 +116,6 @@ body {
   color: #555;
 }
 
-/* ===================== */
-/* MENU                  */
-/* ===================== */
 .menu {
   padding: 10px 0;
 }
@@ -160,4 +150,4 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-}/*# sourceMappingURL=style.css.map */
+}
